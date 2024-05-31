@@ -20,7 +20,7 @@ The package to use depends on your machine distribution but also on your system 
     sudo dpkg -i ./st-stlink-udev-rules-1.0.3-2-linux-all.deb
 
     ```
-5. And run `sudo apt update`
+5. And run ``sudo apt update``
 
 6. Debug Your STM32 
 
@@ -35,9 +35,9 @@ The package to use depends on your machine distribution but also on your system 
     
 * Debian-based distribution (Debian, Ubuntu...)
     As root user:
-    - either run: sudo dpkg -i st-stlink-udev-rules-xxxx-linux-all.deb
+    - either run: ``sudo dpkg -i st-stlink-udev-rules-xxxx-linux-all.deb``
     - or use the dedicated software package manager from your system
 
 * Any/other distribution (but prefer one of the native method above if you can)
     As root user
-    - run: sudo sh st-stlink-udev-rules-xxxx-linux-noarch.sh
+    - run: ``sudo sh st-stlink-udev-rules-xxxx-linux-noarch.sh``
